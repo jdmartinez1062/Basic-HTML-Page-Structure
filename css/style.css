@@ -14,57 +14,90 @@ body{
 
 
 }
+
+main{
+
+        position:relative;
+        top:60px;
+}
 nav {
         
         width: 100%;
         min-height: 15%;
         display:flex;
         flex-direction: row;
-                
+        position:fixed;
+}
+#logo{
+        height:50px;
+        
 }
 form{
-        width: 200px%;
-}
-div{
-
-}
-div .main-video{
-
-
-}
-div .recommended-videos{
-
+        width: 50%;
+        display:flex;
+        flex-direction: row;
 }
 
-        
 #search-div{
         
-        margin:0px;
+        
         padding: 0px;
         height: 32px;
         width: 575px;
 }
 
 #search-button{
-        position: relative;
-        right: 5px;
+        
         margin: 0px;
         padding: 0px;
         height: 32px;
         width: 64px;
-        border-left: 0px;
+        
+        background-color: transparent;
+        border-width: 1px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+         appearance: none;
+         box-shadow: none;
+         border-style: solid;
+        align-content: center
+        
+        
+}
+#notifications{
+        display:flex;
+        align-items: flex-end;
 }
 svg{
         width:24px ;
-        height:24px;
+        height:32px;
+        align-content: center
 }
 .borderless {
         height: 50px;
         width: 50px;
         border: none;
         background: none;
+
 }
+
 input {
-        height: 100%;
-        width: 100%;
+        height: 30px;
+        width: 574px;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        border-width:1px;
+        padding:0px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        box-shadow: none;
+        border-style: solid;
+        border-color:buttonface;
+  
+        
+        
 }
