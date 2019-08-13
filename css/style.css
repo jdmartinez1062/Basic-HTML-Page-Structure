@@ -35,22 +35,36 @@ div .main-video{
 div .recommended-videos{
 
 }
-button{
-        height: 50px;
-        width: 50px;
-        border: none;
-        background: none;
 
-}
-input{
+        
+#search-div{
+        
         margin:0px;
         padding: 0px;
+        height: 32px;
+        width: 575px;
 }
 
-#searchbutton{
-        border:
+#search-button{
+        position: relative;
+        right: 5px;
+        margin: 0px;
+        padding: 0px;
+        height: 32px;
+        width: 64px;
+        border-left: 0px;
 }
 svg{
         width:24px ;
         height:24px;
+}
+.borderless {
+        height: 50px;
+        width: 50px;
+        border: none;
+        background: none;
+}
+input {
+        height: 100%;
+        width: 100%;
 }
