@@ -26,44 +26,6 @@ nav {
         background-color: hsl(0, 0%, 100%);
         box-shadow: hsl(0, 0%, 0%); 
 }
-
-main{
-        height:100vh;
-        width:100%;
-        position:relative;
-        top:60px;
-        background-color: hsl(0, 0%, 97%);
-        display: flex;
-        flex-direction: row;
-        
-}
-.main-video{
-
-        width:75%;
-        
-
-}
-#vid{
-        height:50%;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        padding-top:10px;
-        justify-content: center;
-}
-
-.recommended-videos{
-
-        width:25%;
-}
-
-#logo{
-        height:28px;
-        
-}
-#logo-div {
-        width: 25%;
-}
 form{
         width: 50%;
         display: flex;
@@ -105,6 +67,7 @@ form{
         justify-content: flex-end;
         width: 25%;   
         margin-right: 3%;    
+        
 }
 svg{
         width:24px ;
@@ -152,7 +115,79 @@ input {
         height: 34px; 
 }
 
+
+main{
+        height:100vh;
+        width:100%;
+        position:relative;
+        top:60px;
+        background-color: hsl(0, 0%, 97%);
+        display: flex;
+        flex-direction: row;
+        
+}
+.main-video{
+
+        width:75%;
+        
+}
+#vid{
+
+        height:50%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        
+}
+iframe{
+        align-self: center;
+        vertical-align: middle;
+
+}
+
+.recommended-videos{
+
+        width:25%;
+}
+
+#logo{
+        height:28px;
+        
+}
+#logo-div {
+        width: 25%;
+}
+#name-div{
+
+        width:50%;
+}
+
+#like-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width:40%;
+        padding-left:50px;
+        padding-top: 5%;
+}
+
+#uploader-info{
+
+        display:flex;
+        flex-direction: row;
+}
+#upavatar-div{
+        width:50%;
+}
+#subscribe-div{ 
+        width:50%;
+        display: flex;
+        justify-content: flex-end;
+
+}
 #below-vid {
         display: flex;
         flex-direction: row;
+        
 }
