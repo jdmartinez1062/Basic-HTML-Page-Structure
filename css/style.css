@@ -28,24 +28,30 @@ nav {
 }
 
 main{
-        height:100%;
+        height:100vh;
         width:100%;
         position:relative;
         top:60px;
         background-color: hsl(0, 0%, 97%);
-        display:flex;
-        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: row;
         
 }
 .main-video{
 
         width:75%;
+        
 
 }
 #vid{
-        height:80%;
+        height:50%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
         padding-top:10px;
+        justify-content: center;
 }
+
 .recommended-videos{
 
         width:25%;
