@@ -43,7 +43,7 @@ main{
 
 }
 #vid{
-        height:50%;
+        height:80%;
         padding-top:10px;
 }
 .recommended-videos{
@@ -143,8 +143,10 @@ input {
 }
 #user-avatar {
 
-        height: 34px;
-       
-        
-        
+        height: 34px; 
+}
+
+#below-vid {
+        display: flex;
+        flex-direction: row;
 }
