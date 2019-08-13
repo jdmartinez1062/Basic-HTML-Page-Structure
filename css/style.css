@@ -184,7 +184,13 @@ iframe{
         width:50%;
         display: flex;
         justify-content: flex-end;
-
+}
+#subscribe {
+        width: 40%;
+        height: 70%;
+        background-color: #CC0000;
+        color: white;
+        
 }
 #below-vid {
         display: flex;
