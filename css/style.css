@@ -11,24 +11,46 @@ textarea {
 }
 
 body{
-
-
+        height:100%;
+        width:100%;
 }
 
-main{
-
-        position:relative;
-        top:60px;
-}
 nav {
-        
+        margin-top:0.5%;
         width: 100%;
         height: 5%;
         display:flex;
         flex-direction: row;
         position:fixed;
         align-items: center;
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: hsl(0, 0%, 0%); 
 }
+
+main{
+        height:100%;
+        width:100%;
+        position:relative;
+        top:60px;
+        background-color: hsl(0, 0%, 97%);
+        display:flex;
+        flex-wrap: nowrap;
+        
+}
+.main-video{
+
+        width:75%;
+
+}
+#vid{
+        height:50%;
+        padding-top:10px;
+}
+.recommended-videos{
+
+        width:25%;
+}
+
 #logo{
         height:28px;
         
@@ -38,8 +60,9 @@ nav {
 }
 form{
         width: 50%;
-        display:flex;
+        display: flex;
         flex-direction: row;
+        justify-content: center;
 }
 
 #search-div{
@@ -48,6 +71,7 @@ form{
         padding: 0px;
         height: 32px;
         width: 575px;
+        
 }
 
 #search-button{
@@ -56,8 +80,7 @@ form{
         padding: 0px;
         height: 32px;
         width: 64px;
-        
-        background-color: transparent;
+        background-color: hsl(0, 0%, 97%);
         border-width: 1px;
         border-bottom-right-radius: 3px;
         border-top-right-radius: 3px;
@@ -74,7 +97,8 @@ form{
 #notifications{
         display:flex;
         justify-content: flex-end;
-        width: 25%;       
+        width: 25%;   
+        margin-right: 3%;    
 }
 svg{
         width:24px ;
@@ -86,6 +110,9 @@ svg{
         width: 50px;
         border: none;
         background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
 }
 
@@ -106,13 +133,18 @@ input {
 }
 
 #avatar-div {
-        width: 50px;
-}
-#user-avatar {
-        height: 34px;
+
+        width: 34px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left:17px;
+
+}
+#user-avatar {
+
+        height: 34px;
+       
         
         
 }
