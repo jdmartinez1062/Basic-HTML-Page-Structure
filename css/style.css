@@ -9,22 +9,30 @@ textarea {
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
-
+html{
+        height:100%;
+}
 body{
         height:100%;
         width:100%;
+        margin:0px;
 }
 
+
+
+
 nav {
-        margin-top:0.5%;
+        
         width: 100%;
-        height: 5%;
+        height: 50px;
         display:flex;
         flex-direction: row;
         position:fixed;
         align-items: center;
         background-color: hsl(0, 0%, 100%);
-        box-shadow: hsl(0, 0%, 0%); 
+        z-index:2;
+        
+        
 }
 form{
         width: 50%;
@@ -117,7 +125,7 @@ input {
 
 
 main{
-        height:100vh;
+        height:100%;
         width:100%;
         position:relative;
         top:60px;
@@ -133,7 +141,7 @@ main{
 }
 #vid{
 
-        height:50%;
+        height:450px;
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -141,6 +149,7 @@ main{
         
 }
 iframe{
+
         align-self: center;
         vertical-align: middle;
 
@@ -164,6 +173,7 @@ iframe{
 #name-div{
 
         width:50%;
+        margin-left:20px;
 }
 
 #like-div{
@@ -182,6 +192,7 @@ iframe{
 }
 #upavatar-div{
         width:50%;
+        margin-left:20px;
 }
 #subscribe-div{ 
         width:50%;
@@ -194,6 +205,8 @@ iframe{
         margin-right: 50px;
         background-color: #CC0000;
         color: white;
+        border-radius: 2px;
+        border-width: 0px;
         
 }
 #below-vid {
