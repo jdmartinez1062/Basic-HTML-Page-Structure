@@ -8,22 +8,34 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit; 
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 0; 
 }
 html{
         height:100%;
 }
+h1{
+        font-weight: lighter;
+}
+/* Main */
 body{
         height:100%;
         width:100%;
         margin:0px;
 }
+main{
+        height:100vh;
+        width:100%;
+        position:relative;
+        top:60px;
+        display: flex;
+        flex-direction: row;
+        
+}
 
-
-
+/*Navigation Bar*/
 
 nav {
         
@@ -45,7 +57,6 @@ form{
         flex-direction: row;
         justify-content: center;
 }
-
 #search-div{
         
         
@@ -54,6 +65,18 @@ form{
         width: 575px;
         
 }
+#avatar-div {
+
+        width: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:17px;
+
+}
+
+
+
 
 #search-button{
         
@@ -114,48 +137,33 @@ input {
   
 }
 
-#avatar-div {
 
-        width: 34px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left:17px;
-
-}
 #user-avatar {
 
         height: 34px; 
 }
 
 
-main{
-        height:100vh;
-        width:100%;
-        position:relative;
-        top:60px;
-        display: flex;
-        flex-direction: row;
-        
-}
+
 .main-video{
 
-        width:75%;
+        width:74%;
         
 }
 #vid{
 
-        height:600px;
+        height:775px;
         display: flex;
         flex-direction: row;
         width: 100%;
-        justify-content: center;
+        justify-content:flex-end;
         
 }
 iframe{
         
         align-self: center;
-        vertical-align: middle;
+        margin-right:23px;
+        
 
 }
 
@@ -170,7 +178,7 @@ iframe{
 
 .recommended-videos{
 
-        width:25%;
+        width:26%;
 }
 #autoplay {
         margin-top: 19px;
@@ -205,7 +213,7 @@ iframe{
         flex-direction: row;
         justify-content: flex-end;
         width:40%;
-        padding-left:50px;
+        padding-left:100px;
         padding-top: 5%;
 }
 
@@ -216,7 +224,7 @@ iframe{
 }
 #upavatar-div{
         width:10%;
-        margin-left:10%;
+        margin-left:7%;
 }
 #upavatar-info{
         height:150px;
@@ -229,7 +237,7 @@ iframe{
 #subscribe {
         width: 200px;
         height: 40px;
-        margin-right: 50px;
+        margin-right: 21px;
         background-color: #CC0000;
         color: white;
         border-radius: 2px;
@@ -239,5 +247,5 @@ iframe{
 #below-vid {
         display: flex;
         flex-direction: row;
-        margin-left:10%;
+        margin-left: 7%;
 }
