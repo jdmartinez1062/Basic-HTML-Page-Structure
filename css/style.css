@@ -150,6 +150,9 @@ iframe{
 
         width:25%;
 }
+.thumbnail {
+        height: 100px;
+}
 
 #logo{
         height:28px;
@@ -188,6 +191,7 @@ iframe{
 #subscribe {
         width: 40%;
         height: 70%;
+        margin-right: 50px;
         background-color: #CC0000;
         color: white;
         
