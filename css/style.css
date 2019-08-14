@@ -37,6 +37,7 @@ nav {
         z-index:2;
         
         
+        
 }
 form{
         width: 50%;
@@ -129,11 +130,10 @@ input {
 
 
 main{
-        height:100%;
+        height:100vh;
         width:100%;
         position:relative;
         top:60px;
-        background-color: hsl(0, 0%, 97%);
         display: flex;
         flex-direction: row;
         
@@ -145,7 +145,7 @@ main{
 }
 #vid{
 
-        height:450px;
+        height:600px;
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -153,7 +153,7 @@ main{
         
 }
 iframe{
-
+        
         align-self: center;
         vertical-align: middle;
 
@@ -174,6 +174,7 @@ iframe{
 }
 .thumbnail {
         height: 100px;
+        margin-bottom:10px;
 }
 
 #logo{
@@ -182,11 +183,12 @@ iframe{
 }
 #logo-div {
         width: 25%;
+        margin-left:4%;
 }
 #name-div{
 
         width:50%;
-        margin-left:20px;
+        
 }
 
 #like-div{
@@ -204,8 +206,11 @@ iframe{
         flex-direction: row;
 }
 #upavatar-div{
-        width:50%;
-        margin-left:20px;
+        width:10%;
+        margin-left:10%;
+}
+#upavatar-info{
+        height:150px;
 }
 #subscribe-div{ 
         width:50%;
@@ -213,8 +218,8 @@ iframe{
         justify-content: flex-end;
 }
 #subscribe {
-        width: 40%;
-        height: 70%;
+        width: 200px;
+        height: 40px;
         margin-right: 50px;
         background-color: #CC0000;
         color: white;
@@ -225,5 +230,5 @@ iframe{
 #below-vid {
         display: flex;
         flex-direction: row;
-        
+        margin-left:10%;
 }
