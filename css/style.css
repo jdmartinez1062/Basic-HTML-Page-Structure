@@ -172,9 +172,18 @@ iframe{
 
         width:25%;
 }
+#autoplay {
+        margin-top: 19px;
+        width: 425px;
+}
+#next-video{
+        margin-top: 10px;
+        margin-bottom: 25px;
+}
+
 .thumbnail {
         height: 100px;
-        margin-bottom:10px;
+        margin-bottom:1px;
 }
 
 #logo{
