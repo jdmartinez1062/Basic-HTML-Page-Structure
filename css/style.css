@@ -8,23 +8,30 @@ input,
 optgroup,
 select,
 textarea {
+
   font-family: inherit; 
   font-size: 100%; 
   line-height: 1.15; 
   margin: 0; 
+  
 }
+
 html{
         height:100%;
 }
+
 h1{
         font-weight: lighter;
 }
+
 /* Main */
+
 body{
         height:100%;
         width:100%;
         margin:0px;
 }
+
 main{
         height:100vh;
         width:100%;
@@ -48,77 +55,13 @@ nav {
         background-color: hsl(0, 0%, 100%);
         z-index:2;
         
-        
-        
 }
+
 form{
         width: 50%;
         display: flex;
         flex-direction: row;
         justify-content: center;
-}
-#search-div{
-        
-        
-        padding: 0px;
-        height: 32px;
-        width: 575px;
-        
-}
-#avatar-div {
-
-        width: 34px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left:17px;
-
-}
-
-
-
-
-#search-button{
-        
-        margin: 0px;
-        padding: 0px;
-        height: 32px;
-        width: 64px;
-        background-color: hsl(0, 0%, 97%);
-        border-width: 1px;
-        border-bottom-right-radius: 3px;
-        border-top-right-radius: 3px;
-
-        -webkit-appearance: none;
-        -moz-appearance: none;
-         appearance: none;
-         box-shadow: none;
-         border-style: solid;
-        align-content: center
-        
-        
-}
-#notifications{
-        display:flex;
-        justify-content: flex-end;
-        width: 25%;   
-        margin-right: 3%;    
-        
-}
-svg{
-        width:24px ;
-        height:32px;
-        align-content: center
-}
-.borderless {
-        height: 50px;
-        width: 50px;
-        border: none;
-        background: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
 }
 
 input {
@@ -137,19 +80,99 @@ input {
   
 }
 
+svg{
+        width:24px ;
+        height:32px;
+        align-content: center
+}
+
+.borderless {
+        height: 50px;
+        width: 50px;
+        border: none;
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+}
+
+#logo{
+        height:28px;
+        
+}
+
+#logo-div {
+        width: 25%;
+        margin-left:4%;
+}
+
+#search-div{
+        
+        
+        padding: 0px;
+        height: 32px;
+        width: 575px;
+        
+}
+
+#avatar-div {
+
+        width: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:17px;
+
+}
+
+#search-button{
+        
+        margin: 0px;
+        padding: 0px;
+        height: 32px;
+        width: 64px;
+        background-color: hsl(0, 0%, 97%);
+        border-width: 1px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+         appearance: none;
+         box-shadow: none;
+         border-style: solid;
+        align-content: center
+}
+
+#notifications{
+        display:flex;
+        justify-content: flex-end;
+        width: 25%;   
+        margin-right: 3%;    
+        
+}
 
 #user-avatar {
 
         height: 34px; 
 }
 
+/*Main Video */
 
+iframe{
+        
+        align-self: center;
+        margin-right:23px;
+
+}
 
 .main-video{
 
         width:74%;
         
 }
+
 #vid{
 
         height:775px;
@@ -159,12 +182,17 @@ input {
         justify-content:flex-end;
         
 }
-iframe{
-        
-        align-self: center;
-        margin-right:23px;
-        
 
+#below-vid {
+        display: flex;
+        flex-direction: row;
+        margin-left: 7%;
+}
+
+#name-div{
+
+        width:50%;
+        
 }
 
 #video-name {
@@ -176,36 +204,18 @@ iframe{
         font-size: 16px;
 }
 
-.recommended-videos{
-
-        width:26%;
+#upavatar-div{
+        width:10%;
+        margin-left:7%;
 }
-#autoplay {
-        margin-top: 19px;
-        width: 425px;
-}
-#next-video{
-        margin-top: 10px;
-        margin-bottom: 25px;
+#upavatar-info{
+        height:150px;
 }
 
-.thumbnail {
-        height: 100px;
-        margin-bottom:1px;
-}
+#uploader-info{
 
-#logo{
-        height:28px;
-        
-}
-#logo-div {
-        width: 25%;
-        margin-left:4%;
-}
-#name-div{
-
-        width:50%;
-        
+        display:flex;
+        flex-direction: row;
 }
 
 #like-div{
@@ -217,18 +227,6 @@ iframe{
         padding-top: 5%;
 }
 
-#uploader-info{
-
-        display:flex;
-        flex-direction: row;
-}
-#upavatar-div{
-        width:10%;
-        margin-left:7%;
-}
-#upavatar-info{
-        height:150px;
-}
 #subscribe-div{ 
         width:50%;
         display: flex;
@@ -244,8 +242,27 @@ iframe{
         border-width: 0px;
         
 }
-#below-vid {
-        display: flex;
-        flex-direction: row;
-        margin-left: 7%;
+
+/*Recommended Videos*/
+
+
+.recommended-videos{
+
+        width:26%;
 }
+
+.thumbnail {
+        height: 100px;
+        margin-bottom:1px;
+}
+
+#autoplay {
+        margin-top: 19px;
+        width: 425px;
+}
+
+#next-video{
+        margin-top: 10px;
+        margin-bottom: 25px;
+}
+
