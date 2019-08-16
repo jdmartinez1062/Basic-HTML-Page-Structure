@@ -166,6 +166,10 @@ iframe{
 }
 
 /* Video data*/
+
+span {
+        font-size: 18px;
+}
 #below-vid {
         display: flex;
         flex-direction: row;
