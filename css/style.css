@@ -225,6 +225,10 @@ span {
         border-radius: 2px;
         border-width: 0px;
 }
+#comments {
+        width: 1300px;
+        margin-left: 150px;
+}
 
 /*Recommended Videos*/
 
