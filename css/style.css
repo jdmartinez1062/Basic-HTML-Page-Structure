@@ -63,8 +63,7 @@ form{
 }
 
 input {
-        -moz-appearance: none;
-        -webkit-appearance: none;
+        
         appearance: none;
         border-bottom-left-radius: 3px;
         border-top-left-radius: 3px;
@@ -121,8 +120,7 @@ svg{
 }
 
 #search-button{  
-        -webkit-appearance: none;
-        -moz-appearance: none;
+        
         align-content: center;
         appearance: none;
         box-shadow: none;
