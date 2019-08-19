@@ -4,7 +4,7 @@ Microverse First HTML and CSS Main Curriculum Project "Embedding Images and Vide
 
 Mimick page of a YouTube Page. [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video)
 
-[Live pre-view:](https://raw.githubusercontent.com/jdmartinez1062/Basic-HTML-Page-Structure/youtube-mimick/Index.HTML)
+[Live pre-view](https://rawcdn.githack.com/jdmartinez1062/Basic-HTML-Page-Structure/ed912ce6bab4d8722f1c63ad516fa07033e587d5/Index.HTML)
 
 [Original page](https://www.youtube.com/watch?v=V74l_zS1x8E)
 
