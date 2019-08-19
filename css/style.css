@@ -65,8 +65,7 @@ form{
 input {
         
         
-        -moz-appearance: none;
-        -webkit-appearance: none;
+        
         appearance: none;
         border-bottom-left-radius: 3px;
         border-top-left-radius: 3px;
@@ -77,6 +76,8 @@ input {
         height: 30px;
         padding:0px;
         width: 574px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
         
 }
 
