@@ -9,11 +9,11 @@ optgroup,
 select,
 textarea {
 
-  font-family: inherit; 
-  font-size: 100%; 
-  line-height: 1.15; 
-  margin: 0; 
-  
+        font-family: inherit; 
+        font-size: 100%; 
+        line-height: 1.15; 
+        margin: 0; 
+        
 }
 
 
@@ -63,14 +63,13 @@ form{
 }
 
 input {
-        
         appearance: none;
+        border-color:buttonface;
         border-bottom-left-radius: 3px;
         border-top-left-radius: 3px;
+        border-style: solid;
         border-width:1px;
         box-shadow: none;
-        border-style: solid;
-        border-color:buttonface;
         height: 30px;
         padding:0px;
         width: 574px;
@@ -84,10 +83,8 @@ svg{
 }
 
 .borderless {
-        
-        
-        border: none;
         background: none;
+        border: none;
         display: flex;
         flex-direction: column;
         height: 50px;
@@ -123,12 +120,12 @@ svg{
         
         align-content: center;
         appearance: none;
-        box-shadow: none;
-        border-style: solid;
-        border-width: 1px;
-        border-bottom-right-radius: 3px;
-        border-top-right-radius: 3px;
         background-color: hsl(0, 0%, 97%);
+        border-bottom-right-radius: 3px;
+        border-style: solid;
+        border-top-right-radius: 3px;
+        border-width: 1px;
+        box-shadow: none;
         height: 32px;
         margin: 0px;
         padding: 0px;
