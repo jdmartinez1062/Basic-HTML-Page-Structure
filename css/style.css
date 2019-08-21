@@ -97,13 +97,13 @@ svg{
         height:28px;    
 }
 
-#logo-div {
+.logo-div {
         
         margin-left:4%;
         width: 25%;
 }
 
-#search-div{
+.search-div{
         height: 32px;
         padding: 0;
         width: 575px;  
