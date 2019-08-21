@@ -204,8 +204,8 @@ span {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        padding-left:100px;
-        padding-top: 5%;
+        margin-left:100px;
+        margin-top: 5%;
         width:40%;
 }
 
