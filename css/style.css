@@ -109,7 +109,7 @@ svg{
         width: 575px;  
 }
 
-#avatar-div {
+.avatar-div {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -117,7 +117,7 @@ svg{
         width: 34px;
 }
 
-#search-button{  
+.search-button{  
         
         align-content: center;
         appearance: none;
@@ -135,7 +135,7 @@ svg{
         
 }
 
-#notifications{
+.notifications{
         display:flex;
         justify-content: flex-end;
         margin-right: 3%;    
@@ -143,7 +143,7 @@ svg{
         
 }
 
-#user-avatar {
+.user-avatar {
         height: 34px; 
 }
 
@@ -158,7 +158,7 @@ iframe{
         width:74%;    
 }
 
-#vid{
+.vid{
         display: flex;
         flex-direction: row;
         height:775px;
@@ -171,39 +171,39 @@ iframe{
 span {
         font-size: 18px;
 }
-#below-vid {
+.below-vid {
         display: flex;
         flex-direction: row;
         margin-left: 7%;
 }
 
-#name-div{
+.name-div{
         width:50%;
 }
 
-#video-name {
+.video-name {
         font-size: 18px;
 }
 
-#views {
+.views {
         color: #606060;
         font-size: 16px;
 }
 
-#upavatar-div{
+.upavatar-div{
         margin-left:7%;
         width:10%;
 }
-#upavatar-info{
+.upavatar-info{
         height:150px;
 }
 
-#uploader-info{
+.uploader-info{
         display:flex;
         flex-direction: row;
 }
 
-#like-div{
+.like-div{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -212,12 +212,12 @@ span {
         width:40%;
 }
 
-#subscribe-div{ 
+.subscribe-div{ 
         display: flex;
         justify-content: flex-end;
         width:50%;
 }
-#subscribe {
+.subscribe {
         background-color: #CC0000;
         border-radius: 2px;
         border-width: 0;
@@ -226,7 +226,7 @@ span {
         margin-right: 21px;
         width: 200px;
 }
-#comments {
+.comments {
         margin-left: 100px;
         width: 1350px;
 }
@@ -243,12 +243,12 @@ span {
         margin-bottom:1px;
 }
 
-#autoplay {
+.autoplay {
         margin-top: 19px;
         width: 425px;
 }
 
-#next-video{
+.next-video{
         margin-bottom: 25px;
         margin-top: 10px;
 }
