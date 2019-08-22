@@ -1,0 +1,252 @@
+
+button,
+input,
+optgroup,
+select,
+textarea {
+
+        font-family: inherit; 
+        font-size: 100%; 
+        line-height: 1.15; 
+        margin: 0; 
+        
+}
+
+
+/* Main */
+html{
+        height:100%;
+}
+
+body{
+        font-family: 'Roboto', sans-serif;
+        height:100%;
+        margin:0;
+        width:100%;
+}
+
+main{
+        display: flex;
+        flex-direction: row; 
+        height:100vh;
+        position:relative;
+        top:60px;
+        width:100%;
+}
+
+h1{
+        font-weight: lighter;
+}
+
+
+/*Navigation Bar*/
+
+nav {   
+        align-items: center;
+        background-color: white;
+        background-color: hsl(0, 0%, 100%);
+        display:flex;
+        flex-direction: row;
+        height: 50px;
+        position:fixed;
+        width: 100%;
+        z-index:2;  
+}
+
+form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 50%;
+}
+
+input {
+        appearance: none;
+        border-bottom-left-radius: 3px;
+        border-color:buttonface;
+        border-style: solid;
+        border-top-left-radius: 3px;
+        border-width:1px;
+        box-shadow: none;
+        height: 30px;
+        padding:0;
+        width: 574px;
+     }
+
+svg{
+        
+        align-content: center;
+        height:32px;
+        width:24px ;
+}
+
+.borderless {
+        background: none;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        justify-content: center;
+        width: 50px;
+}
+
+.logo{
+        height:28px;    
+}
+
+.logo-div {
+        
+        margin-left:4%;
+        width: 25%;
+}
+
+.search-div{
+        height: 32px;
+        padding: 0;
+        width: 575px;  
+}
+
+.avatar-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:17px;
+        width: 34px;
+}
+
+.search-button{  
+        
+        align-content: center;
+        appearance: none;
+        background-color: white;
+        background-color: hsl(0, 0%, 97%);
+        border-bottom-right-radius: 3px;
+        border-style: solid;
+        border-top-right-radius: 3px;
+        border-width: 1px;
+        box-shadow: none;
+        height: 32px;
+        margin: 0;
+        padding: 0;
+        width: 64px;
+        
+}
+
+.notifications{
+        display:flex;
+        justify-content: flex-end;
+        margin-right: 3%;    
+        width: 25%;   
+        
+}
+
+.user-avatar {
+        height: 34px; 
+}
+
+/*Main Video */
+
+iframe{ 
+        align-self: center;
+        margin-right:23px;
+}
+
+.main-video{
+        width:74%;    
+}
+
+.vid{
+        display: flex;
+        flex-direction: row;
+        height:775px;
+        justify-content:flex-end;  
+        width: 100%;
+}
+
+/* Video data*/
+
+span {
+        font-size: 18px;
+}
+.below-vid {
+        display: flex;
+        flex-direction: row;
+        margin-left: 7%;
+}
+
+.name-div{
+        width:50%;
+}
+
+.video-name {
+        font-size: 18px;
+}
+
+.views {
+        color: #606060;
+        font-size: 16px;
+}
+
+.upavatar-div{
+        margin-left:7%;
+        width:10%;
+}
+.upavatar-info{
+        height:150px;
+}
+
+.uploader-info{
+        display:flex;
+        flex-direction: row;
+}
+
+.like-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-left:100px;
+        margin-top: 5%;
+        width:40%;
+}
+
+.subscribe-div{ 
+        display: flex;
+        justify-content: flex-end;
+        width:50%;
+}
+.subscribe {
+        background-color: #CC0000;
+        border-radius: 2px;
+        border-width: 0;
+        color: white;
+        height: 40px;
+        margin-right: 21px;
+        width: 200px;
+}
+.comments {
+        margin-left: 100px;
+        width: 1350px;
+}
+
+/*Recommended Videos*/
+
+
+.recommended-videos{
+        width:26%;
+}
+
+.thumbnail {
+        height: 100px;
+        margin-bottom:1px;
+}
+
+.autoplay {
+        margin-top: 19px;
+        width: 425px;
+}
+
+.next-video{
+        margin-bottom: 25px;
+        margin-top: 10px;
+}
+

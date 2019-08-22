@@ -1,0 +1,15 @@
+---
+linters:
+    flake8:
+    eslint:
+        config: './eslint.config'
+    csslint:
+    
+fixers:
+    enable: true
+
+
+files:
+    ignore:
+        - 'src/generated/*'
+        - 'webroot/bower_components/*'
